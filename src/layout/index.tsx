@@ -2,14 +2,14 @@ import React from "react";
 
 import Header from "./Header";
 import Footer from "./Footer";
-import ContactUs from "./ContactUs";
+// import ContactUs from "./ContactUs";
 
-const Layout = (props: any) => {
+const Layout: React.FC<any> = (props) => {
   return (
     <>
       <Header />
       {props?.children}
-      <ContactUs />
+      {/* <ContactUs /> */}
       <Footer />
     </>
   );

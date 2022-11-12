@@ -42,10 +42,19 @@
     text-align: center;
   }
   .info-card {
-    height: 300px;
     background-color: #f58634;
     border-radius: 15px;
     margin: 25px;
+    color: white;
+
+    form {
+      padding: 15px;
+    }
+
+    button {
+      background-color: #a6474b;
+      color: white;
+    }
   }
 }
 

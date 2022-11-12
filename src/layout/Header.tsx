@@ -17,17 +17,17 @@ const Header: React.FC<any> = (props) => {
 
   const toggle = () => setIsOpen(!isOpen);
 
-  const activeClassname = "link-active";
+  const activeClassName = "link-active";
 
   const setClassName = ({ isActive }: any) =>
-    isActive ? activeClassname : undefined;
+    isActive ? activeClassName : undefined;
 
   return (
     <header className="header sticky-top">
       <div className="quick-info">
         <div className="container">
           <div className="d-flex justify-content-end">
-            <div className="p-2">Contact No: +91 9999999999</div>
+            <div className="p-2">Contact No: +91 8008732109</div>
             <div className="p-2">Affiliation No: 3630208</div>
           </div>
         </div>
@@ -63,11 +63,11 @@ const Header: React.FC<any> = (props) => {
                   ACTIVITIES
                 </NavLink>
               </NavItem>
-              {/* <NavItem>
+              <NavItem>
                 <NavLink to="/gallery" className={setClassName}>
                   GALLERY
                 </NavLink>
-              </NavItem> */}
+              </NavItem>
               <NavItem>
                 <NavLink to="/contact-us" className={setClassName}>
                   CONTACT US

@@ -23,22 +23,22 @@ const Footer: React.FC<any> = (props: any) => {
               />
             </div>
           </div>
-          <div className="col-md-4">
+          <div className="col-md-6">
             <h5>ADDRESS</h5>
             <ul className="list-unstyled">
               <li>
-                Near Railway Colony, R.R. District, Medchal, Hyderabad,
-                Telangana 501401{" "}
+                PLOT NO 889, SURVEY NO 341, NEAR RAILWAY COLONY, MEDCHAL (Mandal
+                and District), TELANGANA, PIN 501401
               </li>
               <li>
-                <b>EMAIL:</b> info@sanskaris.com
+                <b>EMAIL:</b> principalsanskarschool@gmail.com
               </li>
               <li>
-                <b>PHONE:</b> +91 9999999999
+                <b>PHONE:</b> +91 8008732109
               </li>
             </ul>
           </div>
-          <div className="col-md-6">
+          <div className="col-md-4">
             <h5>USEFUL LINKS</h5>
             <ul className="list-unstyled">
               <li>

@@ -1,7 +1,5 @@
 import React, { useState } from "react";
 
-import Director from "./director.jpg";
-import Principal from "./principal.jpg";
 import "../Messages.scss";
 
 const Messages: React.FC<any> = (props) => {
@@ -13,10 +11,6 @@ const Messages: React.FC<any> = (props) => {
   //     setPrincipalActive(!principalActive);
   //   }, 10000);
 
-  const setActive = () => {
-    setDirectorActive(!directorActive);
-    setPrincipalActive(!principalActive);
-  };
   return (
     <div className="messages-container">
       <div className="container">
@@ -56,26 +50,7 @@ const Messages: React.FC<any> = (props) => {
             <button>Read more...</button>
           </div>
         </div>
-        <div className="d-flex justify-content-center">
-          <div className={directorActive ? "image-container active" : "image-container"}>
-            <img
-              src={Director}
-              alt=""
-              onClick={() => setActive()}
-              height={"50px"}
-              width={"50px"}
-            />
-          </div>
-          <div className={directorActive ? "image-container active" : "image-container"}>
-            <img
-              src={Principal}
-              alt=""
-              onClick={() => setActive()}
-              height={"50px"}
-              width={"50px"}
-            />
-          </div>
-        </div>
+        <div className="d-flex justify-content-center"></div>
       </div>
     </div>
   );

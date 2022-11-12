@@ -60,7 +60,7 @@ const GeneralInformation: React.FC<any> = (props) => {
                 <tr>
                   <td>8</td>
                   <td>CONTACT DETAILS (LANDLINE/MOBILE)</td>
-                  <td>8008732109</td>
+                  <td>+91 8008732109</td>
                 </tr>
               </tbody>
             </Table>

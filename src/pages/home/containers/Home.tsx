@@ -1,12 +1,13 @@
 import React from "react";
 
 import Carousel from "../components/caraousel";
+import Messages from "../components/messages";
 
 const Home: React.FC<any> = (props) => {
-  console.log("Rendering Home");
   return (
     <>
       <Carousel />
+      <Messages />
     </>
   );
 };

@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 import Facebook from "./facebook.svg";
 import Instagram from "./instagram.svg";
@@ -24,21 +25,42 @@ const Footer: React.FC<any> = (props: any) => {
           </div>
           <div className="col-md-4">
             <h5>ADDRESS</h5>
-            <ul>
-              <li>Home: </li>
-              <li>About Us</li>
-              <li>Gallary</li>
-              <li>Contact Us</li>
+            <ul className="list-unstyled">
+              <li>
+                Near Railway Colony, R.R. District, Medchal, Hyderabad,
+                Telangana 501401{" "}
+              </li>
+              <li>
+                <b>EMAIL:</b> info@sanskaris.com
+              </li>
+              <li>
+                <b>PHONE:</b> +91 9999999999
+              </li>
             </ul>
           </div>
           <div className="col-md-6">
             <h5>USEFUL LINKS</h5>
-            <ul>
-              <li>Home</li>
-              <li>About Us</li>
-              <li>Gallary</li>
-              <li>Disclosure</li>
-              <li>Contact Us</li>
+            <ul className="list-unstyled">
+              <li>
+                <Link to="/">HOME</Link>
+              </li>
+              <li>
+                <Link to="/about-us">ABOUT US</Link>
+              </li>
+              <li>
+                <Link to="/mandatory-public-disclosure">
+                  MANDATORY PUBLIC DISCLOSURE
+                </Link>
+              </li>
+              <li>
+                <Link to="/activities">ACTIVITIES</Link>
+              </li>
+              <li>
+                <Link to="/gallery">GALLERY</Link>
+              </li>
+              <li>
+                <Link to="/contact-us">CONTACT US</Link>
+              </li>
             </ul>
           </div>
         </div>

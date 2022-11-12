@@ -19,6 +19,34 @@
     font-weight: bold;
     padding: 5px;
   }
+
+  .nav-item {
+    a {
+      text-decoration: none;
+      font-size: 17px;
+      font-weight: 600;
+      padding: 15px;
+      color: #f58634;
+    }
+
+    .link-active {
+      color: #a6474b;
+    }
+  }
+}
+
+// Contact US
+.contact-us-container {
+  h1 {
+    color: #a6474b;
+    text-align: center;
+  }
+  .info-card {
+    height: 300px;
+    background-color: #f58634;
+    border-radius: 15px;
+    margin: 25px;
+  }
 }
 
 // Footer
@@ -40,6 +68,18 @@
       border-radius: 15px;
     }
   }
+
+  ul {
+    li {
+      a {
+        text-decoration: none;
+        font-size: 15px;
+        font-weight: 400;
+        // padding: 15px;
+        color: white;
+      }
+    }
+  }
 }
 
 .divider {
@@ -47,4 +87,10 @@
   margin: 0 auto;
   border-top: 1px solid white;
   padding: 15px 0 0;
+}
+
+@media only screen and (max-width: 800px) {
+}
+
+@media only screen and (max-width: 500px) {
 }

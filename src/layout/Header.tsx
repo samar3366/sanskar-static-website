@@ -6,9 +6,8 @@ import {
   NavbarBrand,
   Nav,
   NavItem,
-  NavLink,
 } from "reactstrap";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 import Logo from "./logo.jpg";
 import "./Layout.scss";
@@ -18,12 +17,17 @@ const Header: React.FC<any> = (props) => {
 
   const toggle = () => setIsOpen(!isOpen);
 
+  const activeClassname = "link-active";
+
+  const setClassName = ({ isActive }: any) =>
+    isActive ? activeClassname : undefined;
+
   return (
     <header className="header sticky-top">
       <div className="quick-info">
         <div className="container">
           <div className="d-flex justify-content-end">
-            <div className="p-2">Contact No: 9999999999</div>
+            <div className="p-2">Contact No: +91 9999999999</div>
             <div className="p-2">Affiliation No: 3630208</div>
           </div>
         </div>
@@ -37,24 +41,37 @@ const Header: React.FC<any> = (props) => {
           <Collapse isOpen={isOpen} navbar>
             <Nav className="mr-auto" navbar>
               <NavItem>
-                <Link to="/">HOME</Link>
+                <NavLink to="/" className={setClassName}>
+                  HOME
+                </NavLink>
               </NavItem>
               <NavItem>
-                <Link to="/about-us">ABOUT US</Link>
+                <NavLink to="/about-us" className={setClassName}>
+                  ABOUT US
+                </NavLink>
               </NavItem>
               <NavItem>
-                <Link to="/mandatory-public-disclosure">
+                <NavLink
+                  to="/mandatory-public-disclosure"
+                  className={setClassName}
+                >
                   MANDATORY PUBLIC DISCLOSURE
-                </Link>
+                </NavLink>
               </NavItem>
               <NavItem>
-                <Link to="/activities">ACTIVITIES</Link>
+                <NavLink to="/activities" className={setClassName}>
+                  ACTIVITIES
+                </NavLink>
               </NavItem>
+              {/* <NavItem>
+                <NavLink to="/gallery" className={setClassName}>
+                  GALLERY
+                </NavLink>
+              </NavItem> */}
               <NavItem>
-                <Link to="/gallery">GALLERY</Link>
-              </NavItem>
-              <NavItem>
-                <Link to="/contact-us">CONTACT US</Link>
+                <NavLink to="/contact-us" className={setClassName}>
+                  CONTACT US
+                </NavLink>
               </NavItem>
             </Nav>
           </Collapse>

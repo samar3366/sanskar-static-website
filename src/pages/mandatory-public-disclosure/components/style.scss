@@ -1,0 +1,31 @@
+.general-information-container {
+  padding: 15px;
+  h1 {
+    color: #a6474b;
+    text-align: center;
+  }
+  .general-information-table {
+    background-color: #f58634;
+    color: white;
+    border-radius: 15px;
+    padding: 15px;
+    margin-top: 30px;
+
+    table {
+      color: white;
+
+      button {
+        border-radius: 5px;
+        border-width: 0px;
+        background-color: white;
+
+        a {
+          color: #a6474b;
+          text-decoration: none;
+          font-weight: 500;
+          font-size: 15px;
+        }
+      }
+    }
+  }
+}

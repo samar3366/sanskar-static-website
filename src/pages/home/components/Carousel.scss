@@ -1,0 +1,38 @@
+.carousel-container {
+  .slick-dots {
+    bottom: 25px;
+  }
+
+  .slick-prev {
+    left: 25px !important;
+    height: 50px;
+    width: 50px;
+    z-index: 5;
+  }
+
+  .slick-next {
+    right: 25px !important;
+    height: 50px;
+    width: 50px;
+    z-index: 5;
+  }
+}
+
+.slide {
+  height: 600px;
+  background-image: url("./caraousel/school_p2.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+@media only screen and (max-width: 800px) {
+  .slide {
+    height: 400px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .slide {
+    height: 300px;
+  }
+}

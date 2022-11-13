@@ -15,7 +15,7 @@ const Messages: React.FC<any> = (props) => {
         }}
       >
         <h1>DIRECTOR'S MESSAGE</h1>
-        <div className="d-flex justify-content-start">
+        <div className="message-content-container">
           <div className="image-container">
             <img src={Director} alt="" />
             <b>B. VENKATESHWAR REDDY, M.Tech, MBA</b>
@@ -47,7 +47,7 @@ const Messages: React.FC<any> = (props) => {
           </div>
         </div>
         <h1>PRINCIPAL'S MESSAGE</h1>
-        <div className="d-flex justify-content-start">
+        <div className="message-content-container">
           <div className="image-container">
             <img src={Principal} alt="" />
             <b>INDU MANRAI, M.A., B.Ed</b>

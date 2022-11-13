@@ -1,0 +1,41 @@
+.welcome-page-container {
+  h1 {
+    color: #a6474b;
+    text-align: center;
+    margin-bottom: 15px;
+  }
+
+  .welcome-content {
+    display: flex;
+    justify-content: space-evenly;
+    
+    .content {
+      padding: 25px;
+
+      p {
+        color: #a6474b;
+        font-size: 17px;
+      }
+    }
+    iframe {
+      height: 250px;
+      width: 400px;
+    }
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .welcome-page-container {
+    .welcome-content {
+      flex-flow: column;
+    }
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .welcome-page-container {
+    .welcome-content {
+      flex-flow: column;
+    }
+  }
+}

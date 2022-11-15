@@ -170,7 +170,7 @@ const DocumentsAndInformation: React.FC<any> = (props) => {
                   <td>
                     <button>
                       <Link
-                        to="./files/self-certification.pdf"
+                        to="./files/land-certificate.pdf"
                         target="_blank"
                         download
                       >

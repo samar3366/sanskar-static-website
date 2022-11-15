@@ -50,7 +50,7 @@ const GeneralInformation: React.FC<any> = (props) => {
                 <tr>
                   <td>6</td>
                   <td>PRINCIPAL QUALIFICATION</td>
-                  <td>M.A and B.Ed</td>
+                  <td>M.A and B.ED</td>
                 </tr>
                 <tr>
                   <td>7</td>

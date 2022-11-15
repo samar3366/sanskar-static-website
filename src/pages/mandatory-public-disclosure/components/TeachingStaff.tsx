@@ -27,27 +27,27 @@ const TeachingStaff: React.FC<any> = (props) => {
                 <tr>
                   <td>2</td>
                   <td>TOTAL NO. OF TEACHERS</td>
-                  <td>38</td>
+                  <td>42</td>
                 </tr>
                 <tr>
                   <td>3</td>
                   <td>PGT</td>
-                  <td>9</td>
+                  <td>12</td>
                 </tr>
                 <tr>
                   <td>4</td>
                   <td>TGT</td>
-                  <td>16</td>
+                  <td>23</td>
                 </tr>
                 <tr>
                   <td>5</td>
                   <td>PRT</td>
-                  <td>5</td>
+                  <td>7</td>
                 </tr>
                 <tr>
                   <td>6</td>
                   <td>TEACHERS SECTION RATIO</td>
-                  <td>2:1</td>
+                  <td>3:1</td>
                 </tr>
                 <tr>
                   <td>7</td>

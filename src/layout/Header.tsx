@@ -27,7 +27,7 @@ const Header: React.FC<any> = (props) => {
       <div className="quick-info">
         <div className="container">
           <div className="d-flex justify-content-end">
-            <div className="p-2">Contact No: +91 8008732109</div>
+            <div className="p-2">Contact No: +91 9000001392, +91 9000900122</div>
             <div className="p-2">Affiliation No: 3630208</div>
           </div>
         </div>

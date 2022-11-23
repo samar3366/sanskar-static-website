@@ -2,6 +2,11 @@ import React from "react";
 import { Table } from "reactstrap";
 import { Link } from "react-router-dom";
 
+// @ts-ignore
+import FeeStructure from "./files/fee-structure.docx";
+// @ts-ignore
+import AcademicCalender from "./files/annual-academic-calender.pdf";
+
 import "./style.scss";
 
 const ResultsAndAcademics: React.FC<any> = (props) => {
@@ -25,13 +30,9 @@ const ResultsAndAcademics: React.FC<any> = (props) => {
                   <td>FEE STRUCTURE OF THE SCHOOL</td>
                   <td>
                     <button>
-                      <Link
-                        to="./files/fee-structure.docx"
-                        target="_blank"
-                        download
-                      >
+                      <a href={FeeStructure} target="_blank">
                         DOWNLOAD
-                      </Link>
+                      </a>
                     </button>
                   </td>
                 </tr>
@@ -40,13 +41,9 @@ const ResultsAndAcademics: React.FC<any> = (props) => {
                   <td>ANNUAL ACADEMIC CALANDER</td>
                   <td>
                     <button>
-                      <Link
-                        to="./files/annual-academic-calender.pdf"
-                        target="_blank"
-                        download
-                      >
-                        DOWNLOAD
-                      </Link>
+                      <a href={AcademicCalender} target="_blank">
+                        Click to View
+                      </a>
                     </button>
                   </td>
                 </tr>

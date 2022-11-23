@@ -2,6 +2,23 @@ import React from "react";
 import { Table } from "reactstrap";
 import { Link } from "react-router-dom";
 
+// @ts-ignore
+import AffiliationLetter from "./files/affiliation-letter.pdf";
+// @ts-ignore
+import SocietyCertficate from "./files/society-certficate.pdf";
+// @ts-ignore
+import RecognitionCertficate from "./files/recognition-certificate.pdf";
+// @ts-ignore
+import BuildingSafetyCertficate from "./files/building-safety-certificate.pdf";
+// @ts-ignore
+import FireSafetyCertficate from "./files/fire-safety-certificate.pdf";
+// @ts-ignore
+import DEOCertificate from "./files/deo-certificate.pdf";
+// @ts-ignore
+import SanitationCertificate from "./files/sanitation-certificate.pdf";
+// @ts-ignore
+import LandCertificate from "./files/land-certificate.pdf";
+
 import "./style.scss";
 
 const DocumentsAndInformation: React.FC<any> = (props) => {
@@ -23,159 +40,122 @@ const DocumentsAndInformation: React.FC<any> = (props) => {
                 <tr>
                   <td>1</td>
                   <td>
-                    COPIES OF AFFILIATION/UPGRADATION LETTER AND RECENT
-                    EXTENSION OF AFFILIATION, IF ANY
+                    AFFILIATION/UPGRADATION LETTER AND RECENT EXTENSION OF
+                    AFFILIATION, IF ANY
                   </td>
                   <td>
                     <button>
-                      <Link
-                        to="./files/affiliation-letter.pdf"
-                        target="_blank"
-                        download
-                      >
-                        DOWNLOAD
-                      </Link>
+                      <a href={AffiliationLetter} target="_blank">
+                        Click to View
+                      </a>
                     </button>
                   </td>
                 </tr>
                 <tr>
                   <td>2</td>
                   <td>
-                    COPIES OF SOCIETIES/TRUST/COMPANY REGISTRATION/RENEWAL
-                    CERTIFICATE, AS APPLICABLE
+                    SOCIETIES/TRUST/COMPANY REGISTRATION/RENEWAL CERTIFICATE, AS
+                    APPLICABLE
                   </td>
                   <td>
                     <button>
-                      <Link
-                        to="./files/society-certficate.pdf"
-                        target="_blank"
-                        download
-                      >
-                        DOWNLOAD
-                      </Link>
+                      <a href={SocietyCertficate} target="_blank">
+                        Click to View
+                      </a>
                     </button>
                   </td>
                 </tr>
                 <tr>
                   <td>3</td>
                   <td>
-                    COPY OF NO OBJECTION CERTIFICATE (NOC) ISSUED, IF
-                    APPLICABLE, BY THE STATE GOVT./UT
+                    NO OBJECTION CERTIFICATE (NOC) ISSUED, IF APPLICABLE, BY THE
+                    STATE GOVT./UT
                   </td>
                   <td>
-                    <button>
-                      <Link
-                        to="./files/self-certification.pdf"
-                        target="_blank"
-                        download
-                      >
-                        DOWNLOAD
-                      </Link>
-                    </button>
+                    {/* <button disabled>
+                      <a href={"#"} target="_blank">
+                        Click to View
+                      </a>
+                    </button> */}
+                    N/A
                   </td>
                 </tr>
                 <tr>
                   <td>4</td>
                   <td>
-                    COPIES OF RECOGNITION CERTIFICATE UNDER RTE ACT, 2009, AND
-                    IT’S RENEWAL IF APPLICABLE
+                    RECOGNITION CERTIFICATE UNDER RTE ACT, 2009, AND IT’S
+                    RENEWAL IF APPLICABLE
                   </td>
                   <td>
                     <button>
-                      <Link
-                        to="./files/recognition-certificate.pdf"
-                        target="_blank"
-                        download
-                      >
-                        DOWNLOAD
-                      </Link>
+                      <a href={RecognitionCertficate} target="_blank">
+                        Click to View
+                      </a>
                     </button>
                   </td>
                 </tr>
                 <tr>
                   <td>5</td>
                   <td>
-                    COPY OF VALID BUILDING SAFETY CERTIFICATE AS PER THE
-                    NATIONAL BUILDING CODE
+                    VALID BUILDING SAFETY CERTIFICATE AS PER THE NATIONAL
+                    BUILDING CODE
                   </td>
                   <td>
                     <button>
-                      <Link
-                        to="./files/building-safety-certificate.pdf"
-                        target="_blank"
-                        download
-                      >
-                        DOWNLOAD
-                      </Link>
+                      <a href={BuildingSafetyCertficate} target="_blank">
+                        Click to View
+                      </a>
                     </button>
                   </td>
                 </tr>
                 <tr>
                   <td>6</td>
                   <td>
-                    COPY OF VALID FIRE SAFETY CERTIFICATE ISSUED BY THE
-                    COMPETENT AUTHORITY
+                    VALID FIRE SAFETY CERTIFICATE ISSUED BY THE COMPETENT
+                    AUTHORITY
                   </td>
                   <td>
                     <button>
-                      <Link
-                        to="./files/fire-safety-certificate.pdf"
-                        target="_blank"
-                        download
-                      >
-                        DOWNLOAD
-                      </Link>
+                      <a href={FireSafetyCertficate} target="_blank">
+                        Click to View
+                      </a>
                     </button>
                   </td>
                 </tr>
                 <tr>
                   <td>7</td>
                   <td>
-                    COPY OF THE DEO CERTIFICATE SUBMITTED BY THE SCHOOL FOR
+                    DEO CERTIFICATE SUBMITTED BY THE SCHOOL FOR
                     AFFILIATION/UPGRADATION/EXTENSION OF AFFILIATIONOR SELF
                     CERTIFICATION BY SCHOOL
                   </td>
                   <td>
                     <button>
-                      <Link
-                        to="./files/deo-certificate.pdf"
-                        target="_blank"
-                        download
-                      >
-                        DOWNLOAD
-                      </Link>
+                      <a href={DEOCertificate} target="_blank">
+                        Click to View
+                      </a>
                     </button>
                   </td>
                 </tr>
                 <tr>
                   <td>8</td>
-                  <td>
-                    COPIES OF VALID WATER, HEALTH AND SANITATION CERTIFICATES
-                  </td>
+                  <td>VALID WATER, HEALTH AND SANITATION CERTIFICATES</td>
                   <td>
                     <button>
-                      <Link
-                        to="./files/sanitation-certificate.pdf"
-                        target="_blank"
-                        download
-                      >
-                        DOWNLOAD
-                      </Link>
+                      <a href={SanitationCertificate} target="_blank">
+                        Click to View
+                      </a>
                     </button>
                   </td>
                 </tr>
                 <tr>
                   <td>9</td>
-                  <td>COPIES OF LAND CERTIFICATE</td>
+                  <td>LAND CERTIFICATE</td>
                   <td>
                     <button>
-                      <Link
-                        to="./files/land-certificate.pdf"
-                        target="_blank"
-                        download
-                      >
-                        DOWNLOAD
-                      </Link>
+                      <a href={LandCertificate} target="_blank">
+                        Click to View
+                      </a>
                     </button>
                   </td>
                 </tr>

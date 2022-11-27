@@ -1,11 +1,5 @@
 import React from "react";
 import { Table } from "reactstrap";
-import { Link } from "react-router-dom";
-
-// @ts-ignore
-import FeeStructure from "./files/fee-structure.docx";
-// @ts-ignore
-import AcademicCalender from "./files/annual-academic-calender.pdf";
 
 import "./style.scss";
 
@@ -30,8 +24,8 @@ const ResultsAndAcademics: React.FC<any> = (props) => {
                   <td>FEE STRUCTURE OF THE SCHOOL</td>
                   <td>
                     <button>
-                      <a href={FeeStructure} target="_blank">
-                        DOWNLOAD
+                      <a href="files/fee-structure.pdf" target="_blank">
+                        Click to View
                       </a>
                     </button>
                   </td>
@@ -41,7 +35,10 @@ const ResultsAndAcademics: React.FC<any> = (props) => {
                   <td>ANNUAL ACADEMIC CALANDER</td>
                   <td>
                     <button>
-                      <a href={AcademicCalender} target="_blank">
+                      <a
+                        href="files/annual-academic-calender.pdf"
+                        target="_blank"
+                      >
                         Click to View
                       </a>
                     </button>
@@ -52,9 +49,9 @@ const ResultsAndAcademics: React.FC<any> = (props) => {
                   <td>LIST OF SCHOOL MANAGEMENT COMMITTEE (SMC)</td>
                   <td>
                     <button>
-                      <Link to="./files/smc.xls" target="_blank" download>
-                        DOWNLOAD
-                      </Link>
+                      <a href="files/smc.pdf" target="_blank">
+                        Click to View
+                      </a>
                     </button>
                   </td>
                 </tr>
@@ -63,9 +60,9 @@ const ResultsAndAcademics: React.FC<any> = (props) => {
                   <td>LIST OF PARENTS TEACHERS ASSOCIATION (PTA) MEMBERS</td>
                   <td>
                     <button>
-                      <Link to="./files/pta.xlsx" target="_blank" download>
-                        DOWNLOAD
-                      </Link>
+                      <a href="files/pta.pdf" target="_blank">
+                        Click to View
+                      </a>
                     </button>
                   </td>
                 </tr>
@@ -77,13 +74,12 @@ const ResultsAndAcademics: React.FC<any> = (props) => {
                   </td>
                   <td>
                     <button>
-                      <Link
-                        to="./files/last-three-years-results.xlsx"
+                      <a
+                        href="files/last-three-years-results.pdf"
                         target="_blank"
-                        download
                       >
-                        DOWNLOAD
-                      </Link>
+                        Click to View
+                      </a>
                     </button>
                   </td>
                 </tr>

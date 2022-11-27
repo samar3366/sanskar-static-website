@@ -1,23 +1,13 @@
 {
   "files": {
-    "main.css": "/static/css/main.a66d4baf.css",
-    "main.js": "/static/js/main.9618e0ec.js",
+    "main.css": "/static/css/main.597fec45.css",
+    "main.js": "/static/js/main.f2d63500.js",
     "static/js/787.856a2c82.chunk.js": "/static/js/787.856a2c82.chunk.js",
     "static/media/director.jpg": "/static/media/director.5eaec400b459578d2a47.jpg",
-    "static/media/society-certficate.pdf": "/static/media/society-certficate.d2b64e769fbe736c3f7f.pdf",
-    "static/media/deo-certificate.pdf": "/static/media/deo-certificate.c8f29b075c1ed9103e75.pdf",
-    "static/media/fire-safety-certificate.pdf": "/static/media/fire-safety-certificate.cec195b48e1fcc94396f.pdf",
-    "static/media/affiliation-letter.pdf": "/static/media/affiliation-letter.5345382f809d0c0dfa75.pdf",
     "static/media/principal.jpg": "/static/media/principal.2c41ac3020254ecbd542.jpg",
-    "static/media/building-safety-certificate.pdf": "/static/media/building-safety-certificate.96bc6cbd76d401f241f5.pdf",
-    "static/media/recognition-certificate.pdf": "/static/media/recognition-certificate.0b8418f3829003157f9a.pdf",
-    "static/media/annual-academic-calender.pdf": "/static/media/annual-academic-calender.4852d4757448e46f1639.pdf",
-    "static/media/land-certificate.pdf": "/static/media/land-certificate.f51dbb4205108aa8a15e.pdf",
     "static/media/logo.jpg": "/static/media/logo.8b834016aaeaa8fd85e3.jpg",
-    "static/media/sanitation-certificate.pdf": "/static/media/sanitation-certificate.71f343da2118694d0a46.pdf",
     "static/media/new-updates.png": "/static/media/new-updates.94831b384dc558ea97b6.png",
     "static/media/school_p2.jpg": "/static/media/school_p2.b9f97ffa47907e40d443.jpg",
-    "static/media/fee-structure.docx": "/static/media/fee-structure.232b91a854aa8714685b.docx",
     "static/media/instagram.svg": "/static/media/instagram.c83e628eea4e83e0d2b6c8e54910510c.svg",
     "static/media/slick.svg": "/static/media/slick.2630a3e3eab21c607e21.svg",
     "static/media/slick.eot": "/static/media/slick.a4e97f5a2a64f0ab1323.eot",
@@ -26,12 +16,12 @@
     "index.html": "/index.html",
     "static/media/youtube.svg": "/static/media/youtube.6806408aa1bf55b7f1aaba51978e649e.svg",
     "static/media/facebook.svg": "/static/media/facebook.5e1cb4b86ac3f872dadcbde3ed31cd4b.svg",
-    "main.a66d4baf.css.map": "/static/css/main.a66d4baf.css.map",
-    "main.9618e0ec.js.map": "/static/js/main.9618e0ec.js.map",
+    "main.597fec45.css.map": "/static/css/main.597fec45.css.map",
+    "main.f2d63500.js.map": "/static/js/main.f2d63500.js.map",
     "787.856a2c82.chunk.js.map": "/static/js/787.856a2c82.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a66d4baf.css",
-    "static/js/main.9618e0ec.js"
+    "static/css/main.597fec45.css",
+    "static/js/main.f2d63500.js"
   ]
 }

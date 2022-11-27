@@ -1,23 +1,5 @@
 import React from "react";
 import { Table } from "reactstrap";
-import { Link } from "react-router-dom";
-
-// @ts-ignore
-import AffiliationLetter from "./files/affiliation-letter.pdf";
-// @ts-ignore
-import SocietyCertficate from "./files/society-certficate.pdf";
-// @ts-ignore
-import RecognitionCertficate from "./files/recognition-certificate.pdf";
-// @ts-ignore
-import BuildingSafetyCertficate from "./files/building-safety-certificate.pdf";
-// @ts-ignore
-import FireSafetyCertficate from "./files/fire-safety-certificate.pdf";
-// @ts-ignore
-import DEOCertificate from "./files/deo-certificate.pdf";
-// @ts-ignore
-import SanitationCertificate from "./files/sanitation-certificate.pdf";
-// @ts-ignore
-import LandCertificate from "./files/land-certificate.pdf";
 
 import "./style.scss";
 
@@ -45,7 +27,7 @@ const DocumentsAndInformation: React.FC<any> = (props) => {
                   </td>
                   <td>
                     <button>
-                      <a href={AffiliationLetter} target="_blank">
+                      <a href="files/affiliation-letter.pdf" target="_blank">
                         Click to View
                       </a>
                     </button>
@@ -59,7 +41,7 @@ const DocumentsAndInformation: React.FC<any> = (props) => {
                   </td>
                   <td>
                     <button>
-                      <a href={SocietyCertficate} target="_blank">
+                      <a href="files/society-certficate.pdf" target="_blank">
                         Click to View
                       </a>
                     </button>
@@ -72,12 +54,11 @@ const DocumentsAndInformation: React.FC<any> = (props) => {
                     STATE GOVT./UT
                   </td>
                   <td>
-                    {/* <button disabled>
-                      <a href={"#"} target="_blank">
+                    <button disabled>
+                      <a href="files/noc-certificate.pdf" target="_blank">
                         Click to View
                       </a>
-                    </button> */}
-                    N/A
+                    </button>
                   </td>
                 </tr>
                 <tr>
@@ -88,7 +69,7 @@ const DocumentsAndInformation: React.FC<any> = (props) => {
                   </td>
                   <td>
                     <button>
-                      <a href={RecognitionCertficate} target="_blank">
+                      <a href="files/recognition-certificate.pdf" target="_blank">
                         Click to View
                       </a>
                     </button>
@@ -102,7 +83,7 @@ const DocumentsAndInformation: React.FC<any> = (props) => {
                   </td>
                   <td>
                     <button>
-                      <a href={BuildingSafetyCertficate} target="_blank">
+                      <a href="files/building-safety-certificate.pdf" target="_blank">
                         Click to View
                       </a>
                     </button>
@@ -116,7 +97,7 @@ const DocumentsAndInformation: React.FC<any> = (props) => {
                   </td>
                   <td>
                     <button>
-                      <a href={FireSafetyCertficate} target="_blank">
+                      <a href="files/fire-safety-certificate.pdf" target="_blank">
                         Click to View
                       </a>
                     </button>
@@ -131,7 +112,7 @@ const DocumentsAndInformation: React.FC<any> = (props) => {
                   </td>
                   <td>
                     <button>
-                      <a href={DEOCertificate} target="_blank">
+                      <a href="files/deo-certificate.pdf" target="_blank">
                         Click to View
                       </a>
                     </button>
@@ -142,7 +123,7 @@ const DocumentsAndInformation: React.FC<any> = (props) => {
                   <td>VALID WATER, HEALTH AND SANITATION CERTIFICATES</td>
                   <td>
                     <button>
-                      <a href={SanitationCertificate} target="_blank">
+                      <a href="files/sanitation-certificate.pdf" target="_blank">
                         Click to View
                       </a>
                     </button>
@@ -153,7 +134,7 @@ const DocumentsAndInformation: React.FC<any> = (props) => {
                   <td>LAND CERTIFICATE</td>
                   <td>
                     <button>
-                      <a href={LandCertificate} target="_blank">
+                      <a href="files/land-certificate.pdf" target="_blank">
                         Click to View
                       </a>
                     </button>

@@ -13,6 +13,7 @@ import {
   Disclosure,
   ContactUs,
   Gallery,
+  Oasis
 } from "./pages";
 
 import "./App.scss";
@@ -26,6 +27,7 @@ const App: React.FC<any> = () => {
         <Route path="/mandatory-public-disclosure" element={<Disclosure />} />
         <Route path="/activities" element={<Activities />} />
         <Route path="/about-us" element={<AboutUs />} />
+        <Route path="/oasis" element={<Oasis />} />
         <Route path="/" element={<Home />} />
       </Routes>
     </Layout>

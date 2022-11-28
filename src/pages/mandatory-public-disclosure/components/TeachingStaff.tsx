@@ -22,32 +22,32 @@ const TeachingStaff: React.FC<any> = (props) => {
                 <tr>
                   <td>1</td>
                   <td>PRINCIPAL</td>
-                  <td>INDU MARNI</td>
+                  <td>INDU MANRAI</td>
                 </tr>
                 <tr>
                   <td>2</td>
                   <td>TOTAL NO. OF TEACHERS</td>
-                  <td>42</td>
+                  <td>50</td>
                 </tr>
                 <tr>
                   <td>3</td>
                   <td>PGT</td>
-                  <td>12</td>
+                  <td>0</td>
                 </tr>
                 <tr>
                   <td>4</td>
                   <td>TGT</td>
-                  <td>23</td>
+                  <td>17</td>
                 </tr>
                 <tr>
                   <td>5</td>
                   <td>PRT</td>
-                  <td>7</td>
+                  <td>23</td>
                 </tr>
                 <tr>
                   <td>6</td>
                   <td>TEACHERS SECTION RATIO</td>
-                  <td>3:1</td>
+                  <td>2:1</td>
                 </tr>
                 <tr>
                   <td>7</td>

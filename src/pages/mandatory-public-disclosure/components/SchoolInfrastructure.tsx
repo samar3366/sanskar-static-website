@@ -27,7 +27,7 @@ const SchoolInfrastructure: React.FC<any> = (props) => {
                 <tr>
                   <td>2</td>
                   <td>NO. AND SIZE OF THE CLASS ROOMS (IN SQ FTMTR)</td>
-                  <td>24 & 1152</td>
+                  <td>28 & 1361</td>
                 </tr>
                 <tr>
                   <td>3</td>

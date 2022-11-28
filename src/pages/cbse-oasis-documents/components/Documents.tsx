@@ -3,18 +3,17 @@ import { Table } from "reactstrap";
 
 import "./style.scss";
 
-const DocumentsAndInformation: React.FC<any> = (props) => {
+const Documents: React.FC<any> = (props) => {
   return (
-    <div className="general-information-container">
+    <div className="documents-container">
       <div className="container">
-        <h1>DOCUMENTS/INFORMATION</h1>
-        <div className="general-information-table">
+        <div className="documents-table">
           <div className="table-responsive">
             <Table>
               <thead>
                 <tr>
                   <th>#</th>
-                  <th>DOCUMENTS/INFORMATION</th>
+                  <th>DOCUMENTS</th>
                   <th>UPLOAD DOCUMENTS</th>
                 </tr>
               </thead>
@@ -22,12 +21,11 @@ const DocumentsAndInformation: React.FC<any> = (props) => {
                 <tr>
                   <td>1</td>
                   <td>
-                    AFFILIATION/UPGRADATION LETTER AND RECENT EXTENSION OF
-                    AFFILIATION, IF ANY
+                    TC
                   </td>
                   <td>
                     <button>
-                      <a href="files/affiliation-letter.pdf" target="_blank">
+                      <a href="files/oasis-tc.pdf" target="_blank">
                         Click to View
                       </a>
                     </button>
@@ -36,12 +34,11 @@ const DocumentsAndInformation: React.FC<any> = (props) => {
                 <tr>
                   <td>2</td>
                   <td>
-                    SOCIETIES/TRUST/COMPANY REGISTRATION/RENEWAL CERTIFICATE, AS
-                    APPLICABLE
+                    AFFIDAVIT
                   </td>
                   <td>
                     <button>
-                      <a href="files/society-certficate.pdf" target="_blank">
+                      <a href="files/oasis-affidavit.pdf" target="_blank">
                         Click to View
                       </a>
                     </button>
@@ -50,12 +47,11 @@ const DocumentsAndInformation: React.FC<any> = (props) => {
                 <tr>
                   <td>3</td>
                   <td>
-                    NO OBJECTION CERTIFICATE (NOC) ISSUED, IF APPLICABLE, BY THE
-                    STATE GOVT./UT
+                   INFRASTRUCTURE
                   </td>
                   <td>
                     <button disabled>
-                      <a href="files/noc-certificate.pdf" target="_blank">
+                      <a href="files/oasis-infrastructure.pdf" target="_blank">
                         Click to View
                       </a>
                     </button>
@@ -64,12 +60,14 @@ const DocumentsAndInformation: React.FC<any> = (props) => {
                 <tr>
                   <td>4</td>
                   <td>
-                    RECOGNITION CERTIFICATE UNDER RTE ACT, 2009, AND IT’S
-                    RENEWAL IF APPLICABLE
+                    DETAILS OF TEACHERS INCLUDING QUALIFICATIONS
                   </td>
                   <td>
                     <button>
-                      <a href="files/recognition-certificate.pdf" target="_blank">
+                      <a
+                        href="files/oasis-details-of-teachers-including-qualifications.pdf"
+                        target="_blank"
+                      >
                         Click to View
                       </a>
                     </button>
@@ -78,12 +76,14 @@ const DocumentsAndInformation: React.FC<any> = (props) => {
                 <tr>
                   <td>5</td>
                   <td>
-                    VALID BUILDING SAFETY CERTIFICATE AS PER THE NATIONAL
-                    BUILDING CODE
+                    STUDENT DETAILS CLASSWISE
                   </td>
                   <td>
                     <button>
-                      <a href="files/building-safety-certificate.pdf" target="_blank">
+                      <a
+                        href="files/oasis-student-details-classwise.pdf"
+                        target="_blank"
+                      >
                         Click to View
                       </a>
                     </button>
@@ -92,12 +92,14 @@ const DocumentsAndInformation: React.FC<any> = (props) => {
                 <tr>
                   <td>6</td>
                   <td>
-                    VALID FIRE SAFETY CERTIFICATE ISSUED BY THE COMPETENT
-                    AUTHORITY
+                   CURRICULUM AND LIST OF BOOKS PRESCRIBED IN VARIOUS CLASSES
                   </td>
                   <td>
                     <button>
-                      <a href="files/fire-safety-certificate.pdf" target="_blank">
+                      <a
+                        href="files/oasis-curriculum.pdf"
+                        target="_blank"
+                      >
                         Click to View
                       </a>
                     </button>
@@ -106,13 +108,11 @@ const DocumentsAndInformation: React.FC<any> = (props) => {
                 <tr>
                   <td>7</td>
                   <td>
-                    DEO CERTIFICATE SUBMITTED BY THE SCHOOL FOR
-                    AFFILIATION/UPGRADATION/EXTENSION OF AFFILIATION OR SELF
-                    CERTIFICATION BY SCHOOL
+                    ANNUAL REPORT
                   </td>
                   <td>
                     <button>
-                      <a href="files/deo-certificate.pdf" target="_blank">
+                      <a href="files/oasis-annual-report.pdf" target="_blank">
                         Click to View
                       </a>
                     </button>
@@ -120,10 +120,13 @@ const DocumentsAndInformation: React.FC<any> = (props) => {
                 </tr>
                 <tr>
                   <td>8</td>
-                  <td>VALID WATER, HEALTH AND SANITATION CERTIFICATES</td>
+                  <td>SCHOOL CIRCULARS</td>
                   <td>
                     <button>
-                      <a href="files/sanitation-certificate.pdf" target="_blank">
+                      <a
+                        href="files/oasis-school-circulars.pdf"
+                        target="_blank"
+                      >
                         Click to View
                       </a>
                     </button>
@@ -131,10 +134,21 @@ const DocumentsAndInformation: React.FC<any> = (props) => {
                 </tr>
                 <tr>
                   <td>9</td>
-                  <td>LAND CERTIFICATE</td>
+                  <td>DETAILS OF TEACHERS TRAINING</td>
                   <td>
                     <button>
-                      <a href="files/land-certificate.pdf" target="_blank">
+                      <a href="files/oasis-details-of-teachers-training.pdf" target="_blank">
+                        Click to View
+                      </a>
+                    </button>
+                  </td>
+                </tr>
+                <tr>
+                  <td>10</td>
+                  <td>SELF CERTIFICATION</td>
+                  <td>
+                    <button>
+                      <a href="files/oasis-self-declaration.pdf" target="_blank">
                         Click to View
                       </a>
                     </button>
@@ -149,4 +163,4 @@ const DocumentsAndInformation: React.FC<any> = (props) => {
   );
 };
 
-export default DocumentsAndInformation;
+export default Documents;

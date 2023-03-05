@@ -45,12 +45,12 @@ const SchoolInfrastructure: React.FC<any> = (props) => {
                 <tr>
                   <td>5</td>
                   <td>NO. OF GIRLS TOILETS</td>
-                  <td>30</td>
+                  <td>20</td>
                 </tr>
                 <tr>
                   <td>6</td>
                   <td>NO. OF BOYS TOILETS</td>
-                  <td>50</td>
+                  <td>30</td>
                 </tr>
                 <tr>
                   <td>7</td>

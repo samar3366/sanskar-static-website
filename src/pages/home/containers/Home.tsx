@@ -1,13 +1,17 @@
 import React from "react";
 
 import Carousel from "../components/caraousel";
-import Messages from "../components/messages";
+import Summary from "../components/summary";
+import Administration from "../components/administration";
+import Welcome from "../components/welcome";
 
 const Home: React.FC<any> = (props) => {
   return (
     <>
       <Carousel />
-      <Messages />
+      <Welcome />
+      <Summary />
+      <Administration />
     </>
   );
 };

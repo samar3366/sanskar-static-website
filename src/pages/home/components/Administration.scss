@@ -1,0 +1,48 @@
+.administration-container {
+  h1 {
+    color: #a6474b;
+    text-align: center;
+    margin-bottom: 15px;
+  }
+  .administration-details {
+    display: flex;
+    justify-content: center;
+    padding: 25px;
+    text-align: center;
+
+    .card {
+      margin: 10px;
+      background-color: #f58634;
+      border-width: 0px;
+      color: white;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+        0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+      .text-muted {
+        color: white !important;
+      }
+    }
+
+    img {
+      max-width: 18rem;
+      max-height: 18rem;
+    }
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .administration-container {
+    .administration-details {
+      flex-flow: column;
+    }
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .administration-container {
+    .administration-details {
+      flex-flow: column;
+    }
+  }
+}

@@ -8,6 +8,10 @@
 }
 
 .message-container {
+  .message-content-container {
+    display: flex;
+    justify-content: flex-start;
+  }
   h1 {
     color: #a6474b;
     text-align: center;
@@ -15,7 +19,10 @@
   }
 
   .image-container {
+    display: flex;
+    flex-flow: column;
     padding: 20px;
+
     b {
       text-align: center;
       color: #a6474b;
@@ -23,16 +30,32 @@
   }
 
   .content-container {
+    display: flex;
+    justify-content: center;
     padding: 20px;
     color: #a6474b;
     font-size: 17px;
+    align-items: center;
   }
 
   img {
-    height: 250px;
-    width: 250px;
+    height: 200px;
+    width: 200px;
     border: 5px solid #f58634;
     border-radius: 50%;
     object-fit: scale-down;
+    margin: 10px;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .message-content-container {
+    flex-flow: column;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .message-content-container {
+    flex-flow: column;
   }
 }

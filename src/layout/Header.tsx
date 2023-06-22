@@ -26,9 +26,14 @@ const Header: React.FC<any> = (props) => {
     <header className="header sticky-top">
       <div className="quick-info">
         <div className="container">
-          <div className="d-flex justify-content-end">
-            <div className="p-2">Contact No: +91 8008732109</div>
-            <div className="p-2">Affiliation No: 3630208</div>
+          <div className="row">
+            <div className="col-5 p-2">
+              CBSE Affiliation Extension: 01.04.2020 to 31.03.2025(SECONDARY)
+            </div>
+            <div className="col-5 p-2">
+              Contact No: +91 9000001392, +91 9000900122
+            </div>
+            <div className="col-2 p-2">Affiliation No: 3630208</div>
           </div>
         </div>
       </div>
@@ -58,7 +63,7 @@ const Header: React.FC<any> = (props) => {
                   MANDATORY PUBLIC DISCLOSURE
                 </NavLink>
               </NavItem>
-              <NavItem>
+              {/* <NavItem>
                 <NavLink to="/activities" className={setClassName}>
                   ACTIVITIES
                 </NavLink>
@@ -66,6 +71,11 @@ const Header: React.FC<any> = (props) => {
               <NavItem>
                 <NavLink to="/gallery" className={setClassName}>
                   GALLERY
+                </NavLink>
+              </NavItem> */}
+              <NavItem>
+                <NavLink to="/oasis" className={setClassName}>
+                  CBSE OASIS DOCUMENTS
                 </NavLink>
               </NavItem>
               <NavItem>

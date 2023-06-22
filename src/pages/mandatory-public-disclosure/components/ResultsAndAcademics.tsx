@@ -1,6 +1,5 @@
 import React from "react";
 import { Table } from "reactstrap";
-import { Link } from "react-router-dom";
 
 import "./style.scss";
 
@@ -25,13 +24,9 @@ const ResultsAndAcademics: React.FC<any> = (props) => {
                   <td>FEE STRUCTURE OF THE SCHOOL</td>
                   <td>
                     <button>
-                      <Link
-                        to="./files/fee-structure.docx"
-                        target="_blank"
-                        download
-                      >
-                        DOWNLOAD
-                      </Link>
+                      <a href="files/fee-structure.pdf" target="_blank">
+                        Click to View
+                      </a>
                     </button>
                   </td>
                 </tr>
@@ -40,13 +35,12 @@ const ResultsAndAcademics: React.FC<any> = (props) => {
                   <td>ANNUAL ACADEMIC CALANDER</td>
                   <td>
                     <button>
-                      <Link
-                        to="./files/annual-academic-calender.pdf"
+                      <a
+                        href="files/annual-academic-calender.pdf"
                         target="_blank"
-                        download
                       >
-                        DOWNLOAD
-                      </Link>
+                        Click to View
+                      </a>
                     </button>
                   </td>
                 </tr>
@@ -55,9 +49,9 @@ const ResultsAndAcademics: React.FC<any> = (props) => {
                   <td>LIST OF SCHOOL MANAGEMENT COMMITTEE (SMC)</td>
                   <td>
                     <button>
-                      <Link to="./files/smc.xls" target="_blank" download>
-                        DOWNLOAD
-                      </Link>
+                      <a href="files/smc.pdf" target="_blank">
+                        Click to View
+                      </a>
                     </button>
                   </td>
                 </tr>
@@ -66,9 +60,9 @@ const ResultsAndAcademics: React.FC<any> = (props) => {
                   <td>LIST OF PARENTS TEACHERS ASSOCIATION (PTA) MEMBERS</td>
                   <td>
                     <button>
-                      <Link to="./files/pta.xlsx" target="_blank" download>
-                        DOWNLOAD
-                      </Link>
+                      <a href="files/pta.pdf" target="_blank">
+                        Click to View
+                      </a>
                     </button>
                   </td>
                 </tr>
@@ -80,13 +74,12 @@ const ResultsAndAcademics: React.FC<any> = (props) => {
                   </td>
                   <td>
                     <button>
-                      <Link
-                        to="./files/last-three-years-results.xlsx"
+                      <a
+                        href="files/last-three-years-results.pdf"
                         target="_blank"
-                        download
                       >
-                        DOWNLOAD
-                      </Link>
+                        Click to View
+                      </a>
                     </button>
                   </td>
                 </tr>
@@ -110,23 +103,9 @@ const ResultsAndAcademics: React.FC<any> = (props) => {
               <tbody>
                 <tr>
                   <td>1</td>
-                  <td>2017-18</td>
-                  <td>56</td>
-                  <td>56</td>
-                  <td>100%</td>
-                </tr>
-                <tr>
-                  <td>2</td>
-                  <td>2017-18</td>
-                  <td>56</td>
-                  <td>56</td>
-                  <td>100%</td>
-                </tr>
-                <tr>
-                  <td>3</td>
-                  <td>2017-18</td>
-                  <td>56</td>
-                  <td>56</td>
+                  <td>2022</td>
+                  <td>76</td>
+                  <td>76</td>
                   <td>100%</td>
                 </tr>
               </tbody>

@@ -14,7 +14,7 @@ const Messages: React.FC<any> = (props) => {
           padding: "20px",
         }}
       >
-        <h1>DIRECTOR'S MESSAGE</h1>
+        <h1>DIRECTOR'S PROFILE</h1>
         <div className="message-content-container">
           <div className="image-container">
             <img src={Director} alt="" />
@@ -22,31 +22,18 @@ const Messages: React.FC<any> = (props) => {
           </div>
           <div className="content-container">
             <p>
-              Sanskar is providing an amalgam of scholastic and co-scholastic
-              activities to convert every individual student into a self reliant
-              and responsible citizen. The school is striving hard to make the
-              best possible efforts to inculcate strong values combining with
-              academics in children. Today, the role of a school is not only to
-              pursue academic excellence but also to motivate and empower its
-              students to be lifelong learners, critical thinkers and productive
-              members of an ever changing global society. At Sanskar, we provide
-              an atmosphere to our students for multifaceted development, where
-              children are encouraged to channelize their potential in the
-              pursuit of excellence. This can only be possible in a holistic,
-              student centric environment. The talents, skills and abilities of
-              each student will be identified, nurtured and encouraged to reach
-              greater heights. We provide a platform to think, express and
-              exhibit their skills. I always believe that parents are the most
-              strengthening power in moulding the future of children. Their
-              consistent support to our endeavour to strengthen their children
-              to reach the stage of excellence in all areas will empowers us to
-              go ahead with this mission. I am confident that Sanskarians will
-              make themselves stronger day by day, adding a new leaf to the
-              grandeur of ‘ SANSKAR’.
+              <b> Mr. BV Reddy</b>, is a Post Graduate in both Engineering and
+              Management. Mr. Reddy started his career as Software Testing
+              Engineer, soon turned into an entrepreneur and established a
+              recruitment company. Before starting School, he scouted all over
+              India, visiting the best schools everywhere to see their best
+              practices which could be inculcated at Sanskar. His leadership
+              qualities and organizational abilities will doubtless help Sanskar
+              scale new heights of glory.
             </p>
           </div>
         </div>
-        <h1>PRINCIPAL'S MESSAGE</h1>
+        <h1>PRINCIPAL'S PROFILE</h1>
         <div className="message-content-container">
           <div className="image-container">
             <img src={Principal} alt="" />
@@ -54,26 +41,42 @@ const Messages: React.FC<any> = (props) => {
           </div>
           <div className="content-container">
             <p>
+              <b> Mrs. Indu Manrai</b> is born and brought up in Delhi. She is
+              M.A (History) and B.Ed (English), from Delhi University. She has
+              worked for over 23 years in some of the finest CBSE schools at
+              Delhi in various capacities. She visited NASA, Orlando along with
+              a team of 32 students. Mrs. Indu brings with her rich experience
+              in the field of education as a teacher, Head of the Department,
+              House Mistress etc. She is conversant with the latest trends in
+              school education.
+            </p>
+          </div>
+        </div>
+        <h1>Principal Desk</h1>
+        <div className="message-content-container">
+          <div className="content-container">
+            <p>
               <b>
-                “Educating the mind without educating the heart is no education
-                at all.”
-              </b>{" "}
-              <br /> The main of our school is to provide qualitative education
-              focusing on activity based learning. This will enable them to
-              bring out their best in every field to be it in Academics, Sports
-              or Co-Circular activities. Beside academics our focus is to
-              inculcate social skills, etiquettes and work ethics, make children
-              a curious learner, critical thinker and an active member of ever
-              changing global society. We at Sanskar believe in empowering our
-              children in such a way that they will act as representative of a
-              value based society. We have a fabulous faculty team with
-              boundless energy and unconditional commitment to keep the ethos of
-              our school shinning. In this journey, the unconditional support of
-              parents is the most strengthening power which enables us to move
-              forward and mould the future of our children. In the end, I would
-              like to say <br /> <b>Coming together is beginning</b> <br />
-              <b>Keeping together is a progress</b> <br />{" "}
-              <b>Working together is success</b>
+                “Knowledge is for action, action for achievement, achieve- ment
+                are for success.”
+              </b>{" "} <br />
+              <br /> Education should not limit within the four walls of the
+              class room But must go beyond that to make the child socially,
+              politically, culturally Aware of what is happening around him, in
+              the society, in the country and in the world at Large. This only
+              will result in the overall development of our children, make them
+              strong and Emotionally balanced. <br /><br />
+              This can happen if we have their eyes and hearts to see and feel
+              as they do, to understand them better and than cater to their
+              needs. Our focus is to make them a good human being. <br /> <br />
+              assure you that with the full support of benevolent management,
+              supportive Parents and an excellent staff, the school will
+              continue to move on the path of success with each passing year.{" "}
+              <br /><br />
+              <i>
+                {" "}
+                <b>-INDU MANRAI</b>
+              </i>
             </p>
           </div>
         </div>

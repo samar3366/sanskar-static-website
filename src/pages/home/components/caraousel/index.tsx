@@ -30,10 +30,11 @@ const Carousel: React.FC<any> = (props) => {
   return (
     <div className="carousel-container">
       <Slider {...settings}>
+        <div className="slide-1"></div>
         <div className="slide"></div>
-        <div className="slide"></div>
-        <div className="slide"></div>
-        <div className="slide"></div>
+        <div className="slide-2"></div>
+        <div className="slide-3"></div>
+        <div className="slide-4"></div>
       </Slider>
     </div>
   );

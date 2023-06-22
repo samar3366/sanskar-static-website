@@ -1,10 +1,14 @@
 {
   "files": {
-    "main.css": "/static/css/main.7d0b348c.css",
-    "main.js": "/static/js/main.7e5304ea.js",
+    "main.css": "/static/css/main.964d80cd.css",
+    "main.js": "/static/js/main.202d6e34.js",
     "static/js/787.856a2c82.chunk.js": "/static/js/787.856a2c82.chunk.js",
     "static/media/director.jpg": "/static/media/director.5eaec400b459578d2a47.jpg",
+    "static/media/school_p5.JPG": "/static/media/school_p5.021636c12c24685eedae.JPG",
+    "static/media/school_p4.jpg": "/static/media/school_p4.e5c6148bcf5000d71640.jpg",
+    "static/media/school_p3.JPG": "/static/media/school_p3.de68c06ae918ba7dccdd.JPG",
     "static/media/principal.jpg": "/static/media/principal.2c41ac3020254ecbd542.jpg",
+    "static/media/school_p1.JPG": "/static/media/school_p1.f61bb28c11c5dd113b1f.JPG",
     "static/media/logo.jpg": "/static/media/logo.8b834016aaeaa8fd85e3.jpg",
     "static/media/new-updates.png": "/static/media/new-updates.94831b384dc558ea97b6.png",
     "static/media/school_p2.jpg": "/static/media/school_p2.b9f97ffa47907e40d443.jpg",
@@ -16,12 +20,12 @@
     "index.html": "/index.html",
     "static/media/youtube.svg": "/static/media/youtube.6806408aa1bf55b7f1aaba51978e649e.svg",
     "static/media/facebook.svg": "/static/media/facebook.5e1cb4b86ac3f872dadcbde3ed31cd4b.svg",
-    "main.7d0b348c.css.map": "/static/css/main.7d0b348c.css.map",
-    "main.7e5304ea.js.map": "/static/js/main.7e5304ea.js.map",
+    "main.964d80cd.css.map": "/static/css/main.964d80cd.css.map",
+    "main.202d6e34.js.map": "/static/js/main.202d6e34.js.map",
     "787.856a2c82.chunk.js.map": "/static/js/787.856a2c82.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7d0b348c.css",
-    "static/js/main.7e5304ea.js"
+    "static/css/main.964d80cd.css",
+    "static/js/main.202d6e34.js"
   ]
 }

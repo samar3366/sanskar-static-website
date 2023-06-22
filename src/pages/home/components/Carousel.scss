@@ -25,6 +25,34 @@
   background-size: 100% 100%;
 }
 
+.slide-1 {
+  height: 600px;
+  background-image: url("./caraousel/school_p1.JPG");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.slide-2 {
+  height: 600px;
+  background-image: url("./caraousel/school_p3.JPG");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.slide-3 {
+  height: 600px;
+  background-image: url("./caraousel/school_p4.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.slide-4 {
+  height: 600px;
+  background-image: url("./caraousel/school_p5.JPG");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
 @media only screen and (max-width: 800px) {
   .slide {
     height: 400px;

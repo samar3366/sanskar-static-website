@@ -154,6 +154,61 @@ const Documents: React.FC<any> = (props) => {
                     </button>
                   </td>
                 </tr>
+                <tr>
+                  <td>11</td>
+                  <td>SMC</td>
+                  <td>
+                    <button>
+                      <a href="files/oasis-smc.pdf" target="_blank">
+                        Click to View
+                      </a>
+                    </button>
+                  </td>
+                </tr>
+                <tr>
+                  <td>12</td>
+                  <td>LAST THREE YEARS RESULTS</td>
+                  <td>
+                    <button>
+                      <a href="files/oasis-last-3yrs-results.pdf" target="_blank">
+                        Click to View
+                      </a>
+                    </button>
+                  </td>
+                </tr>
+                <tr>
+                  <td>13</td>
+                  <td>PTA</td>
+                  <td>
+                    <button>
+                      <a href="files/oasis-pta.pdf" target="_blank">
+                        Click to View
+                      </a>
+                    </button>
+                  </td>
+                </tr>
+                <tr>
+                  <td>14</td>
+                  <td>FEE STRUCTURE</td>
+                  <td>
+                    <button>
+                      <a href="files/oasis-fee-structure.pdf" target="_blank">
+                        Click to View
+                      </a>
+                    </button>
+                  </td>
+                </tr>
+                <tr>
+                  <td>15</td>
+                  <td>ANNUAL ACADEMIC CALENDER</td>
+                  <td>
+                    <button>
+                      <a href="files/oasis-annual-academic-calender.pdf" target="_blank">
+                        Click to View
+                      </a>
+                    </button>
+                  </td>
+                </tr>
               </tbody>
             </Table>
           </div>

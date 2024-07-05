@@ -27,7 +27,7 @@ const TeachingStaff: React.FC<any> = (props) => {
                 <tr>
                   <td>2</td>
                   <td>TOTAL NO. OF TEACHERS</td>
-                  <td>30</td>
+                  <td>56</td>
                 </tr>
                 <tr>
                   <td>3</td>
@@ -37,27 +37,32 @@ const TeachingStaff: React.FC<any> = (props) => {
                 <tr>
                   <td>4</td>
                   <td>TGT</td>
-                  <td>13</td>
+                  <td>30</td>
                 </tr>
                 <tr>
                   <td>5</td>
                   <td>PRT</td>
-                  <td>17</td>
+                  <td>18</td>
                 </tr>
                 <tr>
                   <td>6</td>
-                  <td>TEACHERS SECTION RATIO</td>
-                  <td>2:1</td>
+                  <td>OTHERS</td>
+                  <td>8</td>
                 </tr>
                 <tr>
                   <td>7</td>
-                  <td>DETAILS OF SPECIAL EDUCATOR</td>
-                  <td>PRIYANKA CHOUDHARY</td>
+                  <td>TEACHERS SECTION RATIO</td>
+                  <td>1.5:1</td>
                 </tr>
                 <tr>
                   <td>8</td>
+                  <td>DETAILS OF SPECIAL EDUCATOR</td>
+                  <td>MAJJIGA SRIKANTH</td>
+                </tr>
+                <tr>
+                  <td>9</td>
                   <td>DETAILS OF COUNSELLOR AND WELNESS TEACHER</td>
-                  <td>M SRIKANTH</td>
+                  <td>RAJASEKHAR</td>
                 </tr>
               </tbody>
             </Table>

@@ -145,10 +145,10 @@ const Documents: React.FC<any> = (props) => {
                 </tr>
                 <tr>
                   <td>10</td>
-                  <td>SELF CERTIFICATION</td>
+                  <td>POCSO COMMITTEE</td>
                   <td>
                     <button>
-                      <a href="files/oasis-self-declaration.pdf" target="_blank">
+                      <a href="files/oasis-pocso-committee.pdf" target="_blank">
                         Click to View
                       </a>
                     </button>

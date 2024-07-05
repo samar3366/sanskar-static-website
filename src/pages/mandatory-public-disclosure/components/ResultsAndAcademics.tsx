@@ -103,9 +103,9 @@ const ResultsAndAcademics: React.FC<any> = (props) => {
               <tbody>
                 <tr>
                   <td>1</td>
-                  <td>2022</td>
-                  <td>76</td>
-                  <td>76</td>
+                  <td>2024</td>
+                  <td>74</td>
+                  <td>74</td>
                   <td>100%</td>
                 </tr>
               </tbody>

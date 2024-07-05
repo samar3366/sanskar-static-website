@@ -69,7 +69,7 @@ const DocumentsAndInformation: React.FC<any> = (props) => {
                   </td>
                   <td>
                     <button>
-                      <a href="files/recognition-certificate.pdf" target="_blank">
+                      <a href="files/deo-certificate.pdf" target="_blank">
                         Click to View
                       </a>
                     </button>
@@ -112,7 +112,7 @@ const DocumentsAndInformation: React.FC<any> = (props) => {
                   </td>
                   <td>
                     <button>
-                      <a href="files/deo-certificate.pdf" target="_blank">
+                      <a href="files/self-certification.pdf" target="_blank">
                         Click to View
                       </a>
                     </button>

@@ -28,7 +28,7 @@ const Header: React.FC<any> = (props) => {
         <div className="container">
           <div className="row">
             <div className="col-5 p-2">
-              CBSE Affiliation Extension: 01.04.2020 to 31.03.2025(SECONDARY)
+              CBSE Affiliation Extension: Till 31.03.2030(SECONDARY)
             </div>
             <div className="col-5 p-2">
               Contact No: +91 9000001392, +91 9000900122

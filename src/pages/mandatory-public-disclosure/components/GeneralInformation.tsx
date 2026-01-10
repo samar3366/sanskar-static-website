@@ -8,6 +8,11 @@ const GeneralInformation: React.FC<any> = (props) => {
     <div className="general-information-container">
       <div className="container">
         <h1>GENERAL INFORMATION</h1>
+        <h5>
+          <a href="files/mandatory-public-disclosure.pdf" target="_blank">
+            CLICK TO VIEW MANDATORY PUBLIC DISCLOSURE PDF
+          </a>{" "}
+        </h5>
         <div className="general-information-table">
           <div className="table-responsive">
             <Table>
@@ -50,7 +55,7 @@ const GeneralInformation: React.FC<any> = (props) => {
                 <tr>
                   <td>6</td>
                   <td>PRINCIPAL QUALIFICATION</td>
-                  <td>M.A and B.Ed</td>
+                  <td>M.A and B.ED</td>
                 </tr>
                 <tr>
                   <td>7</td>

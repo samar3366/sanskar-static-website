@@ -34,7 +34,7 @@ const Footer: React.FC<any> = (props: any) => {
                 <b>EMAIL:</b> principalsanskarschool@gmail.com
               </li>
               <li>
-                <b>PHONE:</b> +91 8008732109
+                <b>PHONE:</b> +91 9000001392, +91 9000900122
               </li>
             </ul>
           </div>
